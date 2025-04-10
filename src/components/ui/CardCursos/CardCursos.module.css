@@ -1,0 +1,24 @@
+.cardContainer {
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.cardContainer button {
+    width: 80px;
+    height: 28px;
+    background-color: aliceblue;
+    border-style: none;
+    margin-top: 20px;
+}
+.cardContainer button:hover {
+    cursor: pointer;
+    background-color: rgb(225, 241, 255);
+    font-weight: 600;
+}

@@ -1,0 +1,35 @@
+.screenContainer {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.headerScreen {
+    width: 100%;
+    height: 60px;
+    background-color: cadetblue;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyScreen {
+    height: 100%;
+    width: 800px;
+    background-color:rgb(199, 199, 199);
+    padding-top: 80px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
