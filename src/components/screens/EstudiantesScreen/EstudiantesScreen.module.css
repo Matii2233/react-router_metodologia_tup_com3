@@ -19,23 +19,37 @@
     align-items: center;
 }
 
-.listaEstudiantes {
-    border: 1px solid rgb(27, 27, 27);
-    padding: 0px 20px 0px 20px;
+.headerScreen span {
+    position: absolute;
+    left: 5%;
+    font-size: 36px;
+}
+.headerScreen span:hover {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.listaContainer {
+    padding: 20px 20px 20px 20px;
     box-sizing: border-box;
-    width: 200px;
-    height: 400px;
-    background-color: rgb(159, 223, 201);
+}
+
+.listaEstudiantes {
+    padding: 20px 20px 20px 20px;
+    box-sizing: border-box;
+    width: 340px;
+    max-width: 340px;
+    min-height: 360px;
+    max-height: 600px;
+    background-color: transparent;
+    overflow-y: auto;
+
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.listaEstudiantes h3 {
-    height: 40px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.listaEstudiantes::-webkit-scrollbar {
+    background-color: transparent;
 }
